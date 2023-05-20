@@ -1,0 +1,70 @@
+.logo img {
+  filter: grayscale(100%);
+}
+.main-page-loading-spinner {
+  position: absolute;
+  top: 45%;
+}
+.toggle-button {
+  font-size: "16px";
+  width: 64;
+  height: 64;
+  color: white;
+  transition: margin 0.2s ease;
+}
+.main-content {
+  margin: "0 16px";
+
+  margin-top: 50px;
+  transition: margin 0.2s ease;
+}
+
+.profile-avatar-list:hover {
+  color: rgb(6, 102, 26) !important;
+}
+.footer {
+  transition: margin 0.2s ease;
+}
+/* Actions buttons */
+.action-buttons {
+  display: flex;
+  /* gap: 5px; */
+  justify-content: space-around;
+  align-items: center;
+  white-space: nowrap;
+}
+.edit-button {
+  color: var(--edit);
+}
+.edit-button:hover {
+  color: var(--edit-hover);
+  transform: scale(1.2);
+}
+.view-button {
+  color: var(--view);
+}
+.view-button:hover {
+  color: var(--view-hover);
+  transform: scale(1.2);
+}
+.delete-button {
+  color: var(--delete);
+  /* background-color: red; */
+}
+.delete-button:hover {
+  color: var(--delete-hover);
+  /* background-color: red; */
+  transform: scale(1.2);
+}
+
+@media (max-width: 767px) {
+  .row-to-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .row-to-column div {
+    width: 15rem;
+  }
+}

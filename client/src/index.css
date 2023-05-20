@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Slab&display=swap");
+:root {
+  --light: white;
+  --dark: black;
+  --edit: rgb(74, 188, 233);
+  --view: rgb(8, 102, 8);
+  --delete: rgb(185, 20, 20);
+  --edit-hover: rgb(103, 196, 233);
+  --view-hover: rgb(25, 138, 25);
+  --delete-hover: rgb(209, 36, 36);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
